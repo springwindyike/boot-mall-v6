@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: liUIcXEgXCR0vdbYXrSrx1TWFPhDcB01
- */
+
 package com.igomall.controller.admin;
 
 import java.util.List;

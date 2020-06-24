@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: 4l1V/qOZ5xrhU+rpFHixtwxwyuoc7N4q
- */
+
 package com.igomall.template.directive;
 
 import java.io.IOException;

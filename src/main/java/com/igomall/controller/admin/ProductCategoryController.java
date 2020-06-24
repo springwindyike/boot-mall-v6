@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: IRP/DOlXMsjV3hpSYNbwvriz3XAcr0T/
- */
+
 package com.igomall.controller.admin;
 
 import java.util.ArrayList;

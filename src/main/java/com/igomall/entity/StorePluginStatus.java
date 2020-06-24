@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: Zf3VLERDjyrAWeMT0EIQjXg/fv+6Rool
- */
+
 package com.igomall.entity;
 
 import java.util.Date;

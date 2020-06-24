@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: gpkjo3162Rj/HlPry4kukcOA6tUmO8K/
- */
+
 package com.igomall.entity;
 
 import java.lang.reflect.InvocationTargetException;

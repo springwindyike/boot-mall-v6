@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: JjEYIZmyNWsK+Z99rgiEgnrzusyEHaWN
- */
+
 package com.igomall.dao.impl;
 
 import javax.persistence.NoResultException;

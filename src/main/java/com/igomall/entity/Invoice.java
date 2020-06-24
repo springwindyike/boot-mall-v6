@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: ETAD5YyWzL+5X7np9QhmBmURq6YlbRi9
- */
+
 package com.igomall.entity;
 
 import java.io.Serializable;

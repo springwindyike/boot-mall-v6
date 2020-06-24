@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: +P/QNcV1EUthZEC7V5Zy1CrM1PFc/Hr6
- */
+
 package com.igomall.entity;
 
 import javax.persistence.Entity;

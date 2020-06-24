@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: oVpyURkdMAoB4+Pzq0oPh8jm2arVmKIl
- */
+
 package com.igomall.service.impl;
 
 import java.awt.image.BufferedImage;

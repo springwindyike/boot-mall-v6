@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: DH38FNKW+t7Q/8rHvnuZJPQZLqTsXpIH
- */
+
 package com.igomall.controller.admin;
 
 import org.springframework.beans.factory.annotation.Value;

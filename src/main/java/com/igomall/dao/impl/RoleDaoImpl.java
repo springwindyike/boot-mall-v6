@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: +m8HaG/jcEXNb5+YeyOLqHXSyn6oUoYq
- */
+
 package com.igomall.dao.impl;
 
 import org.springframework.stereotype.Repository;

@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: kVBGxk2n0OoO1AQfeMHhRLtI1esgTu2u
- */
+
 package com.igomall.service;
 
 import com.igomall.Page;

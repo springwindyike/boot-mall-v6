@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: tcEdk1iUfQdrr+Q4sjFfoOI9fj07KtAx
- */
+
 package com.igomall.service;
 
 import org.springframework.web.multipart.MultipartFile;

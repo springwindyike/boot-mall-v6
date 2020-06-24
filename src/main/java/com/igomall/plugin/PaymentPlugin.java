@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: FltBGB7IbE9brNXCksPCxkpt99yH0T9P
- */
+
 package com.igomall.plugin;
 
 import java.math.BigDecimal;

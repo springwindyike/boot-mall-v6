@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: d9RbCwRVXCWfEvrROHK3FKwqukIZorDj
- */
+
 package com.igomall.controller.admin;
 
 import java.util.Calendar;
