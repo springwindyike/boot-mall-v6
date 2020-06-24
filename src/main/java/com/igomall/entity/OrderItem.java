@@ -24,7 +24,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 订单项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -512,7 +512,7 @@ public class OrderItem extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 规格
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

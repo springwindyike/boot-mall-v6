@@ -23,7 +23,7 @@ import com.igomall.service.PluginService;
 /**
  * Service - 插件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

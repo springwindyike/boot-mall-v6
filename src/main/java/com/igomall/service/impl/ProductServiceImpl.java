@@ -80,7 +80,7 @@ import net.sf.ehcache.Element;
 /**
  * Service - 商品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

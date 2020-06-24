@@ -17,7 +17,7 @@ import com.igomall.service.OrderShippingService;
 /**
  * Controller - 订单发货
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminOrderShippingController")

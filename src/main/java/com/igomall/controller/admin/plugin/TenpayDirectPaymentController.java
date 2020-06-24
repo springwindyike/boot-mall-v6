@@ -30,7 +30,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Controller - 财付通(即时交易)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPluginTenpayDirectPaymentController")

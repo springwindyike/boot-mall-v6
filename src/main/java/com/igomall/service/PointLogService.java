@@ -14,7 +14,7 @@ import com.igomall.entity.PointLog;
 /**
  * Service - 积分记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PointLogService extends BaseService<PointLog, Long> {

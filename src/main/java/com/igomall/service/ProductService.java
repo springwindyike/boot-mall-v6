@@ -23,7 +23,7 @@ import com.igomall.entity.StoreProductTag;
 /**
  * Service - 商品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ProductService extends BaseService<Product, Long> {

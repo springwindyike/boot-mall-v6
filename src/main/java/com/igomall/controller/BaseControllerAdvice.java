@@ -20,7 +20,7 @@ import com.igomall.exception.UnauthorizedException;
 /**
  * ControllerAdvice - 基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @ControllerAdvice("net.dbsc.controller")

@@ -6,7 +6,7 @@ import com.igomall.entity.Specification;
 /**
  * Service - 规格
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SpecificationService extends BaseService<Specification, Long> {

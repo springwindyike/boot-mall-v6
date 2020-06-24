@@ -14,7 +14,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - 店铺
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreDao extends BaseDao<Store, Long> {

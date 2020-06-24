@@ -8,7 +8,7 @@ import com.igomall.entity.User;
 /**
  * Event - 用户
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class UserEvent extends ApplicationEvent {

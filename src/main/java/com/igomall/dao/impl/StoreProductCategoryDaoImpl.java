@@ -29,7 +29,7 @@ import com.igomall.entity.StoreProductCategory;
 /**
  * Dao - 店铺商品分类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

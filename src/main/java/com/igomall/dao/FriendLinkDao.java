@@ -8,7 +8,7 @@ import com.igomall.entity.FriendLink;
 /**
  * Dao - 友情链接
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface FriendLinkDao extends BaseDao<FriendLink, Long> {

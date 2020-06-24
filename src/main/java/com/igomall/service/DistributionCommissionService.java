@@ -9,7 +9,7 @@ import com.igomall.entity.Distributor;
 /**
  * Service - 分销佣金
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DistributionCommissionService extends BaseService<DistributionCommission, Long> {

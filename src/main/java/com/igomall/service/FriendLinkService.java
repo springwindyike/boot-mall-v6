@@ -10,7 +10,7 @@ import com.igomall.entity.FriendLink;
 /**
  * Service - 友情链接
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface FriendLinkService extends BaseService<FriendLink, Long> {

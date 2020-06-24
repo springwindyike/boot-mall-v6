@@ -6,7 +6,7 @@ import com.igomall.entity.Ad;
 /**
  * Service - 广告
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AdService extends BaseService<Ad, Long> {

@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - 发货点
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DeliveryCenterDao extends BaseDao<DeliveryCenter, Long> {

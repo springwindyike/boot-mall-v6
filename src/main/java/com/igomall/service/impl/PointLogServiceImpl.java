@@ -21,7 +21,7 @@ import com.igomall.service.PointLogService;
 /**
  * Service - 积分记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

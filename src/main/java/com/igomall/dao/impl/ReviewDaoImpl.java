@@ -24,7 +24,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - 评论
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

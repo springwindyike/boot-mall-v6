@@ -32,7 +32,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 评论
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -346,7 +346,7 @@ public class Review extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 规格
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter
@@ -356,7 +356,7 @@ public class Review extends BaseEntity<Long> {
 	/**
 	 * Entity - 条目
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class Entry implements Serializable {

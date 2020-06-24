@@ -8,7 +8,7 @@ import com.igomall.entity.Cart;
 /**
  * Event - 购物车
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class CartEvent extends ApplicationEvent {

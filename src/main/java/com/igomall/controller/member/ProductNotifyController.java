@@ -31,7 +31,7 @@ import com.igomall.service.ProductNotifyService;
 /**
  * Controller - 到货通知
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberProductNotifyController")

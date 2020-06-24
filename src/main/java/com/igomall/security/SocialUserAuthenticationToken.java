@@ -8,7 +8,7 @@ import com.igomall.entity.SocialUser;
 /**
  * Security - 社会化用户认证令牌
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class SocialUserAuthenticationToken extends UsernamePasswordToken {

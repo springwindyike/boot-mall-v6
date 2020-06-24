@@ -22,7 +22,7 @@ import com.igomall.service.StoreRankService;
 /**
  * Service - 店铺等级
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

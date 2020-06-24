@@ -6,7 +6,7 @@ import com.igomall.entity.PaymentMethod;
 /**
  * Service - 支付方式
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PaymentMethodService extends BaseService<PaymentMethod, Long> {

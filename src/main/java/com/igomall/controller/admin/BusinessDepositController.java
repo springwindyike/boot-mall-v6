@@ -34,7 +34,7 @@ import com.igomall.service.BusinessService;
 /**
  * Controller - 商家预存款
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminBusinessDepositController")

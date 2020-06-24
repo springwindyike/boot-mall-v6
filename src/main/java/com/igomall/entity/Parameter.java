@@ -21,7 +21,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 参数
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -118,7 +118,7 @@ public class Parameter extends OrderedEntity<Long> {
 	/**
 	 * 类型转换 - 参数名称
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

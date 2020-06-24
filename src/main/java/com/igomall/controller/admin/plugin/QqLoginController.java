@@ -24,7 +24,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Controller - QQ登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPluginQqLoginController")

@@ -33,7 +33,7 @@ import net.sf.ehcache.Element;
 /**
  * Utils - 系统
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public final class SystemUtils {

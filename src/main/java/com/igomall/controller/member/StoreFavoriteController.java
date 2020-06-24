@@ -32,7 +32,7 @@ import com.igomall.service.StoreService;
 /**
  * Controller - 店铺收藏
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberStoreFavoriteController")

@@ -34,7 +34,7 @@ import com.igomall.service.ShippingMethodService;
 /**
  * Controller - 地区运费配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessAreaFreightConfigController")

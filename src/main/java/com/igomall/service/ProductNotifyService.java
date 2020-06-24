@@ -13,7 +13,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 到货通知
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ProductNotifyService extends BaseService<ProductNotify, Long> {

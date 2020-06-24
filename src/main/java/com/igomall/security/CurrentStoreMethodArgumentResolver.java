@@ -15,7 +15,7 @@ import com.igomall.service.StoreService;
 /**
  * Security - 当前店铺MethodArgumentResolver
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CurrentStoreMethodArgumentResolver implements HandlerMethodArgumentResolver {

@@ -6,7 +6,7 @@ import com.igomall.entity.OrderPayment;
 /**
  * Service - 订单支付
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface OrderPaymentService extends BaseService<OrderPayment, Long> {

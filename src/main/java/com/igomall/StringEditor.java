@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * Editor - 字符串
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class StringEditor extends PropertyEditorSupport {

@@ -28,7 +28,7 @@ import com.igomall.entity.Order.CommissionType;
 /**
  * Service - 订单
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface OrderService extends BaseService<Order, Long> {

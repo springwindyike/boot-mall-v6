@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 /**
  * Security - 当前购物车注解
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Retention(RetentionPolicy.RUNTIME)

@@ -28,7 +28,7 @@ import com.igomall.util.XmlUtils;
 /**
  * Plugin - 微信支付(扫码支付)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("weixinNativePaymentPlugin")

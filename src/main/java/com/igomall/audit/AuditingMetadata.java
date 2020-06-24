@@ -19,7 +19,7 @@ import com.igomall.util.BeanUtils;
 /**
  * Audit - 审计元数据
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public final class AuditingMetadata {
@@ -163,7 +163,7 @@ public final class AuditingMetadata {
 	/**
 	 * 属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class Property {

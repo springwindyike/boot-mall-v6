@@ -16,7 +16,7 @@ import com.igomall.service.DistributionCommissionService;
 /**
  * Service - 分销佣金
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

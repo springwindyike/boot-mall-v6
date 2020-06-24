@@ -21,7 +21,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 /**
  * Controller - 基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class BaseController {

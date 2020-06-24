@@ -20,7 +20,7 @@ import com.igomall.util.SpringUtils;
 /**
  * Audit - 审计日志拦截器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class AuditLogInterceptor extends HandlerInterceptorAdapter {

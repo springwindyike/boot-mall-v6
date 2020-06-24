@@ -4,7 +4,7 @@ package com.igomall;
 /**
  * 文件类型
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public enum FileType {

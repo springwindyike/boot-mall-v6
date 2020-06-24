@@ -23,7 +23,7 @@ import net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter;
 /**
  * Filter - 页面缓存
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class PageCachingFilter extends SimplePageCachingFilter {

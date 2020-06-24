@@ -7,7 +7,7 @@ import com.igomall.entity.Member;
 /**
  * Service - 分销员
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DistributorService extends BaseService<Distributor, Long> {

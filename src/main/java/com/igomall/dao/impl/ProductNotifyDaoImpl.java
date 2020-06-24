@@ -21,7 +21,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - 到货通知
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

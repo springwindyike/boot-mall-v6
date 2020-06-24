@@ -17,7 +17,7 @@ import com.igomall.entity.StoreRank;
 /**
  * Dao - 店铺等级
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

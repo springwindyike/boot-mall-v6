@@ -38,7 +38,7 @@ import com.igomall.util.SpringUtils;
 /**
  * Controller - 支付
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("shopPaymentController")
@@ -195,7 +195,7 @@ public class PaymentController extends BaseController {
 	/**
 	 * FormBean - 支付项
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class PaymentItemListForm {

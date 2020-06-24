@@ -38,7 +38,7 @@ import com.igomall.service.StockLogService;
 /**
  * Controller - 库存
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessStockController")

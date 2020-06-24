@@ -14,7 +14,7 @@ import com.igomall.service.OrderItemService;
 /**
  * Service - 订单项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

@@ -9,7 +9,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 库存记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StockLogService extends BaseService<StockLog, Long> {

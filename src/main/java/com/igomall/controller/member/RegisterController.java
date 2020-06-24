@@ -41,7 +41,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Controller - 会员注册
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberRegisterController")

@@ -14,7 +14,7 @@ import com.igomall.entity.StoreFavorite;
 /**
  * Service - 店铺收藏
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreFavoriteService extends BaseService<StoreFavorite, Long> {

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Controller - Js
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("shopJsController")

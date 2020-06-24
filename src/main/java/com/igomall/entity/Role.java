@@ -22,7 +22,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 角色
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -168,7 +168,7 @@ public class Role extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 权限
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

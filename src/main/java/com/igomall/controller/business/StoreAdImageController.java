@@ -29,7 +29,7 @@ import com.igomall.service.StoreAdImageService;
 /**
  * Controller - 店铺广告图片
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessStoreAdImageController")

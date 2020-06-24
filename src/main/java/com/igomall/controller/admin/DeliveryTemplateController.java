@@ -19,7 +19,7 @@ import com.igomall.service.DeliveryTemplateService;
 /**
  * Controller - 快递单模板
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminDeliveryTemplateController")

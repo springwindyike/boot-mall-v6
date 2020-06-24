@@ -23,7 +23,7 @@ import com.igomall.util.WebUtils;
 /**
  * Captcha - 验证码拦截器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CaptchaInterceptor extends HandlerInterceptorAdapter {

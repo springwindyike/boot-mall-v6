@@ -14,7 +14,7 @@ import com.igomall.entity.StoreFavorite;
 /**
  * Dao - 店铺收藏
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreFavoriteDao extends BaseDao<StoreFavorite, Long> {

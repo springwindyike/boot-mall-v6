@@ -10,7 +10,7 @@ import com.igomall.entity.MemberAttribute;
 /**
  * Service - 会员注册项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface MemberAttributeService extends BaseService<MemberAttribute, Long> {

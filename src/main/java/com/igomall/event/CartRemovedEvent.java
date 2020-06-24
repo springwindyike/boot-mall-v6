@@ -7,7 +7,7 @@ import com.igomall.entity.Sku;
 /**
  * Event - 移除购物车SKU
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CartRemovedEvent extends CartEvent {

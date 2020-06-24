@@ -19,7 +19,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 商家注册项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -313,7 +313,7 @@ public class BusinessAttribute extends OrderedEntity<Long> {
 	/**
 	 * 类型转换 - 可选项
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

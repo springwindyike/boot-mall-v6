@@ -43,7 +43,7 @@ import com.sun.mail.smtp.SMTPSenderFailedException;
 /**
  * Controller - 系统设置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminstingController")

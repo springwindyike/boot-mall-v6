@@ -19,7 +19,7 @@ import com.igomall.service.AdService;
 /**
  * Controller - 广告
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminAdController")

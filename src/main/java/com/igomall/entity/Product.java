@@ -56,7 +56,7 @@ import com.igomall.BigDecimalNumericFieldBridge;
 /**
  * Entity - 商品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Indexed
@@ -2163,7 +2163,7 @@ public class Product extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 商品图片
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter
@@ -2173,7 +2173,7 @@ public class Product extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 参数值
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter
@@ -2183,7 +2183,7 @@ public class Product extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 规格项
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

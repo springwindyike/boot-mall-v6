@@ -19,7 +19,7 @@ import com.igomall.service.DistributionCommissionService;
 /**
  * Controller - 分销佣金
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminDistributionCommissionController")

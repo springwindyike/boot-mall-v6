@@ -48,7 +48,7 @@ import groovy.lang.GroovyShell;
 /**
  * Service - 促销
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

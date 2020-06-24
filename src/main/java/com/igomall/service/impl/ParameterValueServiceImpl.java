@@ -16,7 +16,7 @@ import com.igomall.service.ParameterValueService;
 /**
  * Service - 参数值
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

@@ -22,7 +22,7 @@ import com.igomall.entity.Store;
 /**
  * Plugin - 优惠券
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("couponPromotionPlugin")
@@ -67,7 +67,7 @@ public class CouponPromotionPlugin extends PromotionPlugin {
 	/**
 	 * 优惠券属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Entity(name = "CouponAttribute")

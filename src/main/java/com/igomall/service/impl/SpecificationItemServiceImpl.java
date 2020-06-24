@@ -21,7 +21,7 @@ import com.igomall.service.SpecificationItemService;
 /**
  * Service - 规格项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

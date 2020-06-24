@@ -21,7 +21,7 @@ import com.igomall.entity.Store;
 /**
  * Plugin - 赠品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("giftPromotionPlugin")
@@ -66,7 +66,7 @@ public class GiftPromotionPlugin extends PromotionPlugin {
 	/**
 	 * 赠品属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Entity(name = "GiftAttribute")

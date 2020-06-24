@@ -19,7 +19,7 @@ import com.igomall.util.WebUtils;
 /**
  * Plugin - Paypal
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("paypalPaymentPlugin")

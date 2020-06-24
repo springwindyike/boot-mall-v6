@@ -38,7 +38,7 @@ import com.igomall.util.XmlUtils;
 /**
  * Plugin - 微信支付(公众号支付)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("weixinPublicPaymentPlugin")

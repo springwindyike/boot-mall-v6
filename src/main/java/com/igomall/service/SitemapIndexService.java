@@ -9,7 +9,7 @@ import com.igomall.entity.SitemapUrl;
 /**
  * Service - Sitemap索引
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SitemapIndexService {

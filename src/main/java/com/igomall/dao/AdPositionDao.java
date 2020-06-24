@@ -6,7 +6,7 @@ import com.igomall.entity.AdPosition;
 /**
  * Dao - 广告位
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AdPositionDao extends BaseDao<AdPosition, Long> {

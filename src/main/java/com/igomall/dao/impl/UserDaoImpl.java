@@ -9,7 +9,7 @@ import com.igomall.entity.User;
 /**
  * Dao - 用户
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

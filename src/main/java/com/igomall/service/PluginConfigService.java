@@ -6,7 +6,7 @@ import com.igomall.entity.PluginConfig;
 /**
  * Service - 插件配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PluginConfigService extends BaseService<PluginConfig, Long> {

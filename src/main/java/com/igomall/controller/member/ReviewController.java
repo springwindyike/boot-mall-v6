@@ -42,7 +42,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Controller - 评论
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberReviewController")
@@ -169,7 +169,7 @@ public class ReviewController extends BaseController {
 	/**
 	 * FormBean - 评论条目
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class ReviewEntryListForm {

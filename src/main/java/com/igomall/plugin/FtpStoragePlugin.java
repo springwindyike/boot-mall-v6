@@ -20,7 +20,7 @@ import com.igomall.entity.PluginConfig;
 /**
  * Plugin - FTP存储
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("ftpStoragePlugin")

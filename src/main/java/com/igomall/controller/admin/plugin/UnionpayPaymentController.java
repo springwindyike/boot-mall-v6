@@ -40,7 +40,7 @@ import com.igomall.util.SecurityUtils;
 /**
  * Controller - 银联在线支付
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPluginUnionpayPaymentController")

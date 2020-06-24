@@ -12,7 +12,7 @@ import com.igomall.entity.Store;
 /**
  * Service - SKU
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SkuService extends BaseService<Sku, Long> {

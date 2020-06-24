@@ -27,7 +27,7 @@ import com.igomall.entity.PaymentTransaction;
 /**
  * Plugin - 财付通(网银直连)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("tenpayBankPaymentPlugin")

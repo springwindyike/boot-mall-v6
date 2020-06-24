@@ -24,7 +24,7 @@ import com.igomall.service.ProductTagService;
 /**
  * Service - 商品标签
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

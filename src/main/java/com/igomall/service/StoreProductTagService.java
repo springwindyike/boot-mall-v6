@@ -13,7 +13,7 @@ import com.igomall.entity.StoreProductTag;
 /**
  * Service - 店铺商品标签
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreProductTagService extends BaseService<StoreProductTag, Long> {

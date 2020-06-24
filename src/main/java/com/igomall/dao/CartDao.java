@@ -6,7 +6,7 @@ import com.igomall.entity.Cart;
 /**
  * Dao - 购物车
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface CartDao extends BaseDao<Cart, Long> {

@@ -24,7 +24,7 @@ import freemarker.template.TemplateModel;
 /**
  * 模板指令 - 店铺商品标签
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

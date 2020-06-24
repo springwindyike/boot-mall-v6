@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - 默认运费配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DefaultFreightConfigDao extends BaseDao<DefaultFreightConfig, Long> {

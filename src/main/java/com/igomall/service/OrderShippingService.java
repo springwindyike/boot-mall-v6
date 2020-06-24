@@ -9,7 +9,7 @@ import com.igomall.entity.OrderShipping;
 /**
  * Service - 订单发货
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface OrderShippingService extends BaseService<OrderShipping, Long> {

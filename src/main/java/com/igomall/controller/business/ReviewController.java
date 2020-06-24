@@ -28,7 +28,7 @@ import com.igomall.service.ReviewService;
 /**
  * Controller - 评论
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessReviewController")

@@ -29,7 +29,7 @@ import com.igomall.util.WebUtils;
 /**
  * Service - 购物车
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

@@ -21,7 +21,7 @@ import com.igomall.entity.Member;
 /**
  * Dao - 优惠码
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

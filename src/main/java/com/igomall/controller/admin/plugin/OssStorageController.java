@@ -24,7 +24,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Controller - 阿里云存储
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPluginOssStorageController")

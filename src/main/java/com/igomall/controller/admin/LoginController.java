@@ -13,7 +13,7 @@ import com.igomall.security.CurrentUser;
 /**
  * Controller - 管理员登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminLoginController")

@@ -6,7 +6,7 @@ import com.igomall.entity.OrderItem;
 /**
  * Service - 订单项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface OrderItemService extends BaseService<OrderItem, Long> {

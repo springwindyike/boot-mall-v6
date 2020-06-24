@@ -27,7 +27,7 @@ import com.igomall.service.ProductService;
 /**
  * Controller - 商品排名
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessProductRankingController")

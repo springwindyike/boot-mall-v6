@@ -28,7 +28,7 @@ import com.igomall.service.MemberService;
 /**
  * Controller - 个人资料
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberProfileController")

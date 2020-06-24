@@ -8,7 +8,7 @@ import com.igomall.FileType;
 /**
  * Service - 文件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface FileService {

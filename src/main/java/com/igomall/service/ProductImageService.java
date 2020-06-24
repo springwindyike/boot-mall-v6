@@ -10,7 +10,7 @@ import com.igomall.entity.ProductImage;
 /**
  * Service - 商品图片
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ProductImageService {

@@ -20,7 +20,7 @@ import com.igomall.service.SearchService;
 /**
  * Listener - 初始化
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

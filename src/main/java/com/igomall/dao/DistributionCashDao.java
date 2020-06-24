@@ -12,7 +12,7 @@ import com.igomall.entity.Distributor;
 /**
  * Dao - 分销提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DistributionCashDao extends BaseDao<DistributionCash, Long> {

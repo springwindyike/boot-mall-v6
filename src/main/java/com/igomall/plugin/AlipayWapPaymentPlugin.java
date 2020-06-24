@@ -28,7 +28,7 @@ import com.igomall.util.SpringUtils;
 /**
  * Plugin - 支付宝(手机网站)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("alipayWapPaymentPlugin")

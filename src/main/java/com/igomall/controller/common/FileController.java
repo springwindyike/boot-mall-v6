@@ -25,7 +25,7 @@ import com.igomall.service.FileService;
 /**
  * Controller - 文件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("commonFileController")

@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 商品分类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ProductCategoryService extends BaseService<ProductCategory, Long> {

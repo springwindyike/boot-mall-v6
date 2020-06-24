@@ -36,7 +36,7 @@ import com.igomall.service.MessageService;
 /**
  * Controller - 会员中心 - 消息
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberMessageController")

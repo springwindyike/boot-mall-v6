@@ -6,7 +6,7 @@ import com.igomall.entity.AuditLog;
 /**
  * Service - 审计日志
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AuditLogService extends BaseService<AuditLog, Long> {

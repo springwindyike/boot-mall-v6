@@ -16,7 +16,7 @@ import com.igomall.util.WebUtils;
 /**
  * Security - XSS拦截器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class XssInterceptor extends HandlerInterceptorAdapter {

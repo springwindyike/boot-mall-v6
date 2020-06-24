@@ -12,7 +12,7 @@ import com.igomall.entity.BusinessDepositLog;
 /**
  * Dao - 商家预存款记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface BusinessDepositLogDao extends BaseDao<BusinessDepositLog, Long> {

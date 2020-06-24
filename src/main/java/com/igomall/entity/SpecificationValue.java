@@ -13,7 +13,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 /**
  * Entity - 规格值
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class SpecificationValue implements Serializable {

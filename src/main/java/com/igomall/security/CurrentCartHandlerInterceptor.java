@@ -13,7 +13,7 @@ import com.igomall.service.CartService;
 /**
  * Security - 当前购物车拦截器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CurrentCartHandlerInterceptor extends HandlerInterceptorAdapter {

@@ -25,7 +25,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Plugin - 登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class LoginPlugin implements Comparable<LoginPlugin> {

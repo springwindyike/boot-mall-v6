@@ -20,7 +20,7 @@ import com.igomall.service.SocialUserService;
 /**
  * Controller - 会员登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberLoginController")

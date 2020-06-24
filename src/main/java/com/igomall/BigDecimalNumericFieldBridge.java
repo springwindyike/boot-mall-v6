@@ -11,7 +11,7 @@ import org.hibernate.search.bridge.TwoWayFieldBridge;
 /**
  * BigDecimal类型转换
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class BigDecimalNumericFieldBridge implements TwoWayFieldBridge {

@@ -12,7 +12,7 @@ import com.igomall.entity.PromotionDefaultAttribute;
 /**
  * Plugin - 免运费
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("freeShippingPromotionPlugin")
@@ -57,7 +57,7 @@ public class FreeShippingPromotionPlugin extends PromotionPlugin {
 	/**
 	 * 免运费属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Entity(name = "FreeShippingAttribute")

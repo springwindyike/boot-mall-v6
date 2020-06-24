@@ -12,7 +12,7 @@ import com.igomall.security.AuthenticationProvider;
 /**
  * Service - 商家
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface BusinessService extends BaseService<Business, Long>, AuthenticationProvider {

@@ -6,7 +6,7 @@ import com.igomall.entity.Cart;
 /**
  * Event - 清空购物车SKU
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CartClearedEvent extends CartEvent {

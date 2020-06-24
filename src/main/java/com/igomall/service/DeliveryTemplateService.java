@@ -13,7 +13,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 快递单模板
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface DeliveryTemplateService extends BaseService<DeliveryTemplate, Long> {

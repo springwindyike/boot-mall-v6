@@ -27,7 +27,7 @@ import com.igomall.util.WebUtils;
 /**
  * Interceptor - 促销插件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class PromotionPluginInterceptor extends HandlerInterceptorAdapter {
@@ -174,7 +174,7 @@ public class PromotionPluginInterceptor extends HandlerInterceptorAdapter {
 	/**
 	 * 默认促销插件Provider
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Component("defaultPromotionPluginProvider")
@@ -223,7 +223,7 @@ public class PromotionPluginInterceptor extends HandlerInterceptorAdapter {
 	/**
 	 * 通过促销ID获取促销插件Provider
 	 *
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Component("promotionIdPromotionPluginProvider")

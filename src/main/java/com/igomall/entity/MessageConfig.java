@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 /**
  * Entity - 消息配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

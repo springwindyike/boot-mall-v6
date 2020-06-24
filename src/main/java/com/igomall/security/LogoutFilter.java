@@ -14,7 +14,7 @@ import com.igomall.service.UserService;
 /**
  * Security - 注销过滤器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class LogoutFilter extends org.apache.shiro.web.filter.authc.LogoutFilter {

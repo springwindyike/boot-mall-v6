@@ -11,7 +11,7 @@ import com.igomall.entity.Svc;
 /**
  * Dao - 服务
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SvcDao extends BaseDao<Svc, Long> {

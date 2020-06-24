@@ -20,7 +20,7 @@ import freemarker.template.TemplateModelException;
 /**
  * 模板方法 - 字符串缩略
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

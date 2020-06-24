@@ -34,7 +34,7 @@ import com.igomall.util.WebUtils;
 /**
  * Listener - 用户事件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

@@ -16,7 +16,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 /**
  * Entity - 参数值
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class ParameterValue implements Serializable {
@@ -106,7 +106,7 @@ public class ParameterValue implements Serializable {
 	/**
 	 * Entity - 条目
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class Entry implements Serializable {

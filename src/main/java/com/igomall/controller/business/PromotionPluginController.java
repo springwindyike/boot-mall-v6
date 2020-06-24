@@ -44,7 +44,7 @@ import com.igomall.util.WebUtils;
 /**
  * Controller - 促销插件管理
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessPromotionPluginController")

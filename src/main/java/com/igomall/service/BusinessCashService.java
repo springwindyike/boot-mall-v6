@@ -9,7 +9,7 @@ import com.igomall.entity.BusinessCash;
 /**
  * Service - 商家提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface BusinessCashService extends BaseService<BusinessCash, Long> {

@@ -31,7 +31,7 @@ import com.igomall.audit.LastModifiedDate;
 /**
  * Entity - 基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @EntityListeners(AuditingEntityListener.class)

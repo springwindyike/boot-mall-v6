@@ -13,7 +13,7 @@ import com.igomall.entity.StoreAdImage;
 /**
  * Service - 店铺广告图片
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreAdImageService extends BaseService<StoreAdImage, Long> {

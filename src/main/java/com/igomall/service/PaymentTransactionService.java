@@ -10,7 +10,7 @@ import com.igomall.plugin.PaymentPlugin;
 /**
  * Service - 支付事务
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PaymentTransactionService extends BaseService<PaymentTransaction, Long> {

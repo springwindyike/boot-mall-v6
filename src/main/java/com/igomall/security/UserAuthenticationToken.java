@@ -8,7 +8,7 @@ import com.igomall.entity.User;
 /**
  * Security - 用户认证令牌
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class UserAuthenticationToken extends UsernamePasswordToken {

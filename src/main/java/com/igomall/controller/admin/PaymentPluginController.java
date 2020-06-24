@@ -13,7 +13,7 @@ import com.igomall.service.PluginService;
 /**
  * Controller - 支付插件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPaymentPluginController")

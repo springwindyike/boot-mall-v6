@@ -12,7 +12,7 @@ import com.igomall.service.StoreService;
 /**
  * Job - 店铺
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Lazy(false)

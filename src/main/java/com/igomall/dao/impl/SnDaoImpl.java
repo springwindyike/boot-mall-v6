@@ -22,7 +22,7 @@ import freemarker.template.TemplateException;
 /**
  * Dao - 序列号
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

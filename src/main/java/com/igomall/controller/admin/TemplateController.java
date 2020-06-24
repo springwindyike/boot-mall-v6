@@ -25,7 +25,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Controller - 模板
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminTemplateController")

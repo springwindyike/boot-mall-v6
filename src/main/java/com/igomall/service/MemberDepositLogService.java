@@ -9,7 +9,7 @@ import com.igomall.entity.MemberDepositLog;
 /**
  * Service - 会员预存款记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface MemberDepositLogService extends BaseService<MemberDepositLog, Long> {

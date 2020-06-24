@@ -9,7 +9,7 @@ import com.igomall.entity.User;
 /**
  * Dao - 社会化用户
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SocialUserDao extends BaseDao<SocialUser, Long> {

@@ -30,7 +30,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Plugin - 支付
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class PaymentPlugin implements Comparable<PaymentPlugin> {

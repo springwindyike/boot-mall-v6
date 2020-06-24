@@ -18,7 +18,7 @@ import com.igomall.service.PaymentMethodService;
 /**
  * Controller - 支付方式
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPaymentMethodController")

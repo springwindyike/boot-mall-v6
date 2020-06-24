@@ -15,7 +15,7 @@ import com.igomall.entity.ArticleTag;
 /**
  * Dao - 文章
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ArticleDao extends BaseDao<Article, Long> {

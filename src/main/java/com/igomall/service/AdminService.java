@@ -7,7 +7,7 @@ import com.igomall.security.AuthenticationProvider;
 /**
  * Service - 管理员
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AdminService extends BaseService<Admin, Long>, AuthenticationProvider {

@@ -7,7 +7,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 售后设置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AftersalesSettingService extends BaseService<AftersalesSetting, Long> {

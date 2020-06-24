@@ -18,7 +18,7 @@ import com.igomall.service.AdPositionService;
 /**
  * Controller - 广告位
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminAdPositionController")

@@ -14,7 +14,7 @@ import com.igomall.service.OrderShippingItemService;
 /**
  * Service - 发货项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

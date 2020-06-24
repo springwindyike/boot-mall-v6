@@ -19,7 +19,7 @@ import freemarker.template.TemplateModel;
 /**
  * 模板指令 - 分页
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

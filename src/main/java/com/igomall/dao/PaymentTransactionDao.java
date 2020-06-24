@@ -9,7 +9,7 @@ import com.igomall.plugin.PaymentPlugin;
 /**
  * Dao - 支付事务
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PaymentTransactionDao extends BaseDao<PaymentTransaction, Long> {

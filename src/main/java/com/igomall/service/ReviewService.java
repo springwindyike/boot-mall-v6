@@ -16,7 +16,7 @@ import com.igomall.entity.Review.Entry;
 /**
  * Service - 评论
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ReviewService extends BaseService<Review, Long> {

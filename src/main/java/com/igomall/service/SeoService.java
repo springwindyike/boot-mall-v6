@@ -6,7 +6,7 @@ import com.igomall.entity.Seo;
 /**
  * Service - SEO设置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SeoService extends BaseService<Seo, Long> {

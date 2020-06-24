@@ -10,7 +10,7 @@ import com.igomall.entity.StoreRank;
 /**
  * Service - 店铺等级
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface StoreRankService extends BaseService<StoreRank, Long> {

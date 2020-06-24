@@ -9,7 +9,7 @@ import com.igomall.entity.Role;
 /**
  * Dao - 角色
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

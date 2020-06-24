@@ -13,7 +13,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 即时通讯
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface InstantMessageService extends BaseService<InstantMessage, Long> {

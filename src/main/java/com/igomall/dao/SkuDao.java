@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Dao - SKU
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SkuDao extends BaseDao<Sku, Long> {

@@ -20,7 +20,7 @@ import com.igomall.plugin.PaymentPlugin;
 /**
  * Entity - 支付事务
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -490,7 +490,7 @@ public class PaymentTransaction extends BaseEntity<Long> {
 	/**
 	 * 支付明细
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public abstract static class LineItem {
@@ -536,7 +536,7 @@ public class PaymentTransaction extends BaseEntity<Long> {
 	/**
 	 * 订单支付明细
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class OrderLineItem extends LineItem {
@@ -590,7 +590,7 @@ public class PaymentTransaction extends BaseEntity<Long> {
 	/**
 	 * 服务支付明细
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class SvcLineItem extends LineItem {
@@ -644,7 +644,7 @@ public class PaymentTransaction extends BaseEntity<Long> {
 	/**
 	 * 预存款充值明细
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class DepositRechargerLineItem extends LineItem {
@@ -700,7 +700,7 @@ public class PaymentTransaction extends BaseEntity<Long> {
 	/**
 	 * 保证金支付明细
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class BailPaymentLineItem extends LineItem {

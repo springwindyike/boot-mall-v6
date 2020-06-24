@@ -16,7 +16,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Plugin - 存储
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class StoragePlugin implements Comparable<StoragePlugin> {

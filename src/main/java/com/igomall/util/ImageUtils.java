@@ -32,7 +32,7 @@ import com.igomall.Setting;
 /**
  * Utils - 图片处理(支持JDK、GraphicsMagick、ImageMagick)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public final class ImageUtils {

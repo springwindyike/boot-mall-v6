@@ -28,7 +28,7 @@ import freemarker.template.TemplateModel;
 /**
  * 模板指令 - 属性
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

@@ -27,7 +27,7 @@ import com.igomall.util.WebUtils;
 /**
  * Captcha - 验证码过滤器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CaptchaFilter extends OncePerRequestFilter {

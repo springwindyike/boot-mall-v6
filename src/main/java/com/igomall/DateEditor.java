@@ -12,7 +12,7 @@ import org.apache.commons.lang3.time.DateUtils;
 /**
  * Editor - 日期
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class DateEditor extends PropertyEditorSupport {

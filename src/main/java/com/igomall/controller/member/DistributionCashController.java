@@ -31,7 +31,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Controller - 分销提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("memberDistributionCashController")

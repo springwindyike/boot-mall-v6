@@ -11,7 +11,7 @@ import com.igomall.entity.Seo;
 /**
  * Dao - SEO设置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

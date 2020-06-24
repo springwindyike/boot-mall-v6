@@ -8,7 +8,7 @@ import com.igomall.entity.MemberRank;
 /**
  * Service - 会员等级
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface MemberRankService extends BaseService<MemberRank, Long> {

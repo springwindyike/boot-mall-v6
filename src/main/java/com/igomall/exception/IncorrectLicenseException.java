@@ -11,7 +11,7 @@ import org.apache.shiro.authc.AuthenticationException;
 /**
  * Exception - 错误商业许可
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class IncorrectLicenseException extends AuthenticationException {

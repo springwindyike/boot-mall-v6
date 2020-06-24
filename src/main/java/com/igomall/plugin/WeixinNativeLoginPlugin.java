@@ -25,7 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * Plugin - 微信登录(扫码登录)
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("weixinNativeLoginPlugin")

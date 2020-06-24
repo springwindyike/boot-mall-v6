@@ -20,7 +20,7 @@ import groovy.lang.GroovyShell;
 /**
  * Plugin - 满减折扣
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("moneyOffPromotionPlugin")
@@ -106,7 +106,7 @@ public class MoneyOffPromotionPlugin extends PromotionPlugin {
 	/**
 	 * 满减折扣属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Entity(name = "MoneyOffAttribute")

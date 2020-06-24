@@ -29,7 +29,7 @@ import freemarker.template.TemplateException;
 /**
  * 系统设置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class Setting implements Serializable {

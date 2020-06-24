@@ -31,7 +31,7 @@ import com.igomall.service.CategoryApplicationService;
 /**
  * Service - 经营分类申请
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

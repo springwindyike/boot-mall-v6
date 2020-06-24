@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 /**
  * Entity - 消息
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

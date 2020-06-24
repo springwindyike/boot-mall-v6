@@ -19,7 +19,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 退货项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -159,7 +159,7 @@ public class OrderReturnsItem extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 规格
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

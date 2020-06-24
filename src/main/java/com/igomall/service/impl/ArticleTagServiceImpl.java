@@ -24,7 +24,7 @@ import com.igomall.service.ArticleTagService;
 /**
  * Service - 文章标签
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

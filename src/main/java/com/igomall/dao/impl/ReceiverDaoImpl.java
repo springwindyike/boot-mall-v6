@@ -21,7 +21,7 @@ import com.igomall.entity.Receiver;
 /**
  * Dao - 收货地址
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

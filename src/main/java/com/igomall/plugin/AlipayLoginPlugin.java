@@ -27,7 +27,7 @@ import com.alipay.api.response.AlipaySystemOauthTokenResponse;
 /**
  * Plugin - 支付宝快捷登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component("alipayLoginPlugin")

@@ -39,7 +39,7 @@ import com.igomall.entity.OrderedEntity;
 /**
  * Dao - 基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class BaseDaoImpl<T extends BaseEntity<ID>, ID extends Serializable> implements BaseDao<T, ID> {

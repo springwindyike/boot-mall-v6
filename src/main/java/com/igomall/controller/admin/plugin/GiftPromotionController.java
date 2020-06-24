@@ -27,7 +27,7 @@ import com.igomall.service.PromotionService;
 /**
  * Controller - 赠品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminPluginGiftPromotionController")

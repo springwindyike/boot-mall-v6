@@ -14,7 +14,7 @@ import com.igomall.service.UserService;
 /**
  * Security - 当前用户拦截器
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class CurrentUserHandlerInterceptor extends HandlerInterceptorAdapter {

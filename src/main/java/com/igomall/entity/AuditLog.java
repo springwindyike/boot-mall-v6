@@ -15,7 +15,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 审计日志
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -182,7 +182,7 @@ public class AuditLog extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 请求参数
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

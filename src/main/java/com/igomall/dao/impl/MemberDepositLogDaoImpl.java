@@ -16,7 +16,7 @@ import com.igomall.entity.MemberDepositLog;
 /**
  * Dao - 会员预存款记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository

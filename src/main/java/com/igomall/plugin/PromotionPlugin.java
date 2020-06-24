@@ -23,7 +23,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Plugin - 促销插件
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public abstract class PromotionPlugin implements Comparable<PromotionPlugin> {

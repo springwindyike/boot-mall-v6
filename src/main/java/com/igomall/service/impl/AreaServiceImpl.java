@@ -17,7 +17,7 @@ import com.igomall.service.AreaService;
 /**
  * Service - 地区
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

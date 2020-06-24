@@ -17,7 +17,7 @@ import com.igomall.service.OrderPaymentService;
 /**
  * Service - 订单支付
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

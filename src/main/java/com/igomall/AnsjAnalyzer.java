@@ -4,7 +4,7 @@ package com.igomall;
 /**
  * Analyzer - Ansj
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class AnsjAnalyzer extends org.ansj.lucene5.AnsjAnalyzer {

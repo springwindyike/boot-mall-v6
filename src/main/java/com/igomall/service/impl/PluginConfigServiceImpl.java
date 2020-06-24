@@ -15,7 +15,7 @@ import com.igomall.service.PluginConfigService;
 /**
  * Service - 插件配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

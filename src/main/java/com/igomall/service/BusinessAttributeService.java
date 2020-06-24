@@ -10,7 +10,7 @@ import com.igomall.entity.BusinessAttribute;
 /**
  * Service - 商家注册项
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface BusinessAttributeService extends BaseService<BusinessAttribute, Long> {

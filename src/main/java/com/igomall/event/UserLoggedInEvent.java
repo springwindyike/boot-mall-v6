@@ -6,7 +6,7 @@ import com.igomall.entity.User;
 /**
  * Event - 用户登录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public class UserLoggedInEvent extends UserEvent {

@@ -24,7 +24,7 @@ import com.igomall.service.StorePluginStatusService;
 /**
  * Service - 店铺插件状态
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

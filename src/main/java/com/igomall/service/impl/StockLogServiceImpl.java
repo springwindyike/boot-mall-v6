@@ -16,7 +16,7 @@ import com.igomall.service.StockLogService;
 /**
  * Service - 库存记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

@@ -17,7 +17,7 @@ import org.hibernate.search.annotations.Store;
 /**
  * Entity - 排序基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @MappedSuperclass

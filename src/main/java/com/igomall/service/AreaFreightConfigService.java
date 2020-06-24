@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 地区运费配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AreaFreightConfigService extends BaseService<AreaFreightConfig, Long> {

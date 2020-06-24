@@ -9,7 +9,7 @@ import com.igomall.service.PromotionDefaultAttributeService;
 /**
  * Service - 促销默认属性
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

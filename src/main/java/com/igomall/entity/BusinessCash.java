@@ -15,7 +15,7 @@ import org.hibernate.validator.constraints.Length;
 /**
  * Entity - 商家提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

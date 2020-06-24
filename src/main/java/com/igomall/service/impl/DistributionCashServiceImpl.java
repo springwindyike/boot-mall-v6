@@ -28,7 +28,7 @@ import com.igomall.service.MemberService;
 /**
  * Service - 分销提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

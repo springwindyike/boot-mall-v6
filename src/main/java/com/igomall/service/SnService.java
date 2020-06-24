@@ -6,7 +6,7 @@ import com.igomall.entity.Sn;
 /**
  * Service - 序列号
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SnService {

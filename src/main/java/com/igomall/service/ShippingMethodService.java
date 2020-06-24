@@ -11,7 +11,7 @@ import com.igomall.entity.Store;
 /**
  * Service - 配送方式
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface ShippingMethodService extends BaseService<ShippingMethod, Long> {

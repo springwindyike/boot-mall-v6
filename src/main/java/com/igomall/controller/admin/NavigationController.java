@@ -21,7 +21,7 @@ import com.igomall.service.ProductCategoryService;
 /**
  * Controller - 导航
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminNavigationController")

@@ -29,7 +29,7 @@ import org.springframework.util.Assert;
 /**
  * Utils - 压缩/解压缩
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public final class CompressUtils {

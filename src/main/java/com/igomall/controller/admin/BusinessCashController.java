@@ -23,7 +23,7 @@ import com.igomall.service.BusinessCashService;
 /**
  * Controller - 商家提现
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminBusinessCashController")

@@ -69,7 +69,7 @@ import com.igomall.service.StoreService;
 /**
  * Controller - 商品
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessProductController")
@@ -537,7 +537,7 @@ public class ProductController extends BaseController {
 	/**
 	 * FormBean - SKU
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class SkuForm {
@@ -571,7 +571,7 @@ public class ProductController extends BaseController {
 	/**
 	 * FormBean - SKU
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	public static class SkuListForm {

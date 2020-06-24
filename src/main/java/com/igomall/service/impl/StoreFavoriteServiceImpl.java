@@ -30,7 +30,7 @@ import com.igomall.service.StoreFavoriteService;
 /**
  * Service - 店铺收藏
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Service

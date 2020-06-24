@@ -6,7 +6,7 @@ import com.igomall.entity.Specification;
 /**
  * Dao - 规格
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface SpecificationDao extends BaseDao<Specification, Long> {

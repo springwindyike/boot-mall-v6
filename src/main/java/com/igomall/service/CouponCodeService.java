@@ -12,7 +12,7 @@ import com.igomall.entity.Member;
 /**
  * Service - 优惠码
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface CouponCodeService extends BaseService<CouponCode, Long> {

@@ -28,7 +28,7 @@ import com.igomall.service.ArticleService;
 /**
  * Controller - 文章
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("shopArticleController")

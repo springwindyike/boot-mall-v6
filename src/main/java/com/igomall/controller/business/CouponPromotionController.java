@@ -32,7 +32,7 @@ import com.igomall.service.PromotionService;
 /**
  * Controller - 优惠券促销
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessCouponPromotionController")

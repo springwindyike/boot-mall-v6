@@ -23,7 +23,7 @@ import freemarker.template.utility.DeepUnwrap;
 /**
  * 模板方法 - 多语言
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Component

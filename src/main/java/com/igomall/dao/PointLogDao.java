@@ -9,7 +9,7 @@ import com.igomall.entity.PointLog;
 /**
  * Dao - 积分记录
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface PointLogDao extends BaseDao<PointLog, Long> {

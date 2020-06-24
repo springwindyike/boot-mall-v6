@@ -38,7 +38,7 @@ import com.igomall.util.JsonUtils;
 /**
  * Entity - 会员
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

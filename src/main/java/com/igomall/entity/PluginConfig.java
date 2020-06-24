@@ -17,7 +17,7 @@ import com.igomall.BaseAttributeConverter;
 /**
  * Entity - 插件配置
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -119,7 +119,7 @@ public class PluginConfig extends OrderedEntity<Long> {
 	/**
 	 * 类型转换 - 属性
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

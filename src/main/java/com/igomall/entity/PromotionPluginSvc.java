@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 /**
  * Entity - 促销插件服务
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

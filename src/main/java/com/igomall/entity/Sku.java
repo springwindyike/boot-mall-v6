@@ -46,7 +46,7 @@ import com.igomall.util.SystemUtils;
 /**
  * Entity - SKU
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity
@@ -830,7 +830,7 @@ public class Sku extends BaseEntity<Long> {
 	/**
 	 * 类型转换 - 规格值
 	 * 
-	 * @author 好源++ Team
+	 * @author BOOTX Team
 	 * @version 6.1
 	 */
 	@Converter

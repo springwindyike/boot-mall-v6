@@ -18,7 +18,7 @@ import com.igomall.service.NavigationGroupService;
 /**
  * Controller - 导航组
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminNavigationGroupController")

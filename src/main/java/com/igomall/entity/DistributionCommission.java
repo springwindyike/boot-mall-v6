@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 /**
  * Entity - 分销佣金
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Entity

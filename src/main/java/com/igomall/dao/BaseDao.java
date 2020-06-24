@@ -15,7 +15,7 @@ import com.igomall.entity.BaseEntity;
 /**
  * Dao - 基类
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface BaseDao<T extends BaseEntity<ID>, ID extends Serializable> {

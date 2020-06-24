@@ -10,7 +10,7 @@ import com.igomall.entity.Navigation;
 /**
  * Service - 导航
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface NavigationService extends BaseService<Navigation, Long> {

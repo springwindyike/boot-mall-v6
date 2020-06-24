@@ -11,7 +11,7 @@ import com.igomall.entity.ProductCategory;
 /**
  * Service - 属性
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 public interface AttributeService extends BaseService<Attribute, Long> {

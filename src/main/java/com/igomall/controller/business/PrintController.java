@@ -27,7 +27,7 @@ import com.igomall.service.OrderService;
 /**
  * Controller - 打印
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessPrintController")

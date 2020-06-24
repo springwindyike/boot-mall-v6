@@ -19,7 +19,7 @@ import com.igomall.service.ProductTagService;
 /**
  * Controller - 商品标签
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("adminProductTagController")

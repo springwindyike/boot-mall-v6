@@ -31,7 +31,7 @@ import com.igomall.service.MessageService;
 /**
  * Controller - 商家中心 - 消息
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Controller("businessMessageController")

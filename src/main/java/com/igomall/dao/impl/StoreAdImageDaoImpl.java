@@ -21,7 +21,7 @@ import com.igomall.entity.StoreAdImage;
 /**
  * Dao - 店铺广告图片
  * 
- * @author 好源++ Team
+ * @author BOOTX Team
  * @version 6.1
  */
 @Repository
