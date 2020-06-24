@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: rns+bDIlqeuaDm7Vc8JXSGeMofSJSEZ1
- */
+
 package com.igomall.controller.business;
 
 import javax.inject.Inject;

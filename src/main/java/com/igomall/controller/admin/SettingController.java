@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: sJCyOJkdu9BOEVe7n6XGndGvjd3u7/Zu
- */
+
 package com.igomall.controller.admin;
 
 import java.net.ConnectException;

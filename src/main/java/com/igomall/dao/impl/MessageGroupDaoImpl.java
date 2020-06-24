@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: 3Jau/XFN/ztSz3Pd4nFw+YrfhLj6WRk8
- */
+
 package com.igomall.dao.impl;
 
 import javax.persistence.criteria.CriteriaBuilder;

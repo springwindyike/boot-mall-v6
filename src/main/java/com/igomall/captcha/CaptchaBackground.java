@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: KlSkvLrH3eVis7kqRCJaPIFvJ5WUuFJv
- */
+
 package com.igomall.captcha;
 
 import java.awt.Graphics2D;

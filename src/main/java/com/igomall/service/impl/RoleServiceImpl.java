@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: 1QBPLFYB8JpIKKRxjC1MSVwYkB47igJz
- */
+
 package com.igomall.service.impl;
 
 import org.springframework.cache.annotation.CacheEvict;

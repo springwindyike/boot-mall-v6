@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: OANujDY4WlKr847zzBTWyS/p8S8sN6hx
- */
+
 package com.igomall.dao.impl;
 
 import java.util.List;

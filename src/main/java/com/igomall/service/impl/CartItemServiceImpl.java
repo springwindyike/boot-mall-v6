@@ -1,9 +1,4 @@
-/*
- * Copyright 2008-2018 shopxx.net. All rights reserved.
- * Support: localhost
- * License: localhost/license
- * FileId: 1yHwnLNFLCk/zZ+s9IDWbyswWkGFh6Ft
- */
+
 package com.igomall.service.impl;
 
 import org.springframework.stereotype.Service;
