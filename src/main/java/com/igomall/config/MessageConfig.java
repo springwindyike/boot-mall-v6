@@ -23,7 +23,6 @@ public class MessageConfig {
     @Bean
     public FixedLocaleResolver localeResolver(){
         FixedLocaleResolver fixedLocaleResolver = new FixedLocaleResolver();
-        fixedLocaleResolver.setDefaultLocale(Locale.CHINA);
         fixedLocaleResolver.setDefaultLocale(LocaleUtils.toLocale("zh_CN"));
         return fixedLocaleResolver;
     }
