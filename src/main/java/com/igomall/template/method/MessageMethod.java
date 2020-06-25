@@ -31,7 +31,6 @@ public class MessageMethod implements TemplateMethodModelEx {
 	 *            参数
 	 * @return 结果
 	 */
-	@SuppressWarnings("rawtypes")
 	@Override
 	public Object exec(List arguments) throws TemplateModelException {
 		String code = FreeMarkerUtils.getArgument(0, String.class, arguments);

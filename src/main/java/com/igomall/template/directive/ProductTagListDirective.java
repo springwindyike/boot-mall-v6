@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -36,6 +37,14 @@ public class ProductTagListDirective extends BaseDirective {
 	@Inject
 	private ProductTagService productTagService;
 
+	public static ProductTagListDirective productTagListDirective;
+
+	@PostConstruct
+	public void init() {
+		productTagListDirective = this;
+		productTagListDirective.productTagService = this.productTagService;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -48,7 +57,6 @@ public class ProductTagListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Integer count = getCount(params);

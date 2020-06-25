@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -39,8 +41,16 @@ public class NavigationListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "navigations";
 
-	@Inject
+	@Resource
 	private NavigationService navigationService;
+
+	public static NavigationListDirective navigationListDirective;
+
+	@PostConstruct
+	public void init() {
+		navigationListDirective = this;
+		navigationListDirective.navigationService = this.navigationService;
+	}
 
 	/**
 	 * 执行

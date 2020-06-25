@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -71,6 +72,15 @@ public class PromotionListDirective extends BaseDirective {
 	@Inject
 	private PluginService pluginService;
 
+	public static PromotionListDirective promotionListDirective;
+
+	@PostConstruct
+	public void init() {
+		promotionListDirective = this;
+		promotionListDirective.promotionService = this.promotionService;
+		promotionListDirective.pluginService = this.pluginService;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -83,7 +93,6 @@ public class PromotionListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		String promotionPluginId = FreeMarkerUtils.getParameter(PROMOTION_PLUGIN_ID_PARAMETER_NAME, String.class, params);

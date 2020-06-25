@@ -122,7 +122,7 @@ public class Pay99billBankPaymentPlugin extends PaymentPlugin {
 		Map<String, Object> parameterMap = new LinkedHashMap<>();
 		parameterMap.put("merchantAcctId", request.getParameter("merchantAcctId"));
 		parameterMap.put("version", request.getParameter("version"));
-		parameterMap.put("language", request.getParameter("language"));
+		parameterMap.put("language", request.getParameter("messages"));
 		parameterMap.put("signType", request.getParameter("signType"));
 		parameterMap.put("payType", request.getParameter("payType"));
 		parameterMap.put("bankId", request.getParameter("bankId"));

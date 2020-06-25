@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -42,6 +43,14 @@ public class BrandListDirective extends BaseDirective {
 	@Inject
 	private BrandService brandService;
 
+	public static BrandListDirective brandListDirective;
+
+	@PostConstruct
+	public void init() {
+		brandListDirective = this;
+		brandListDirective.brandService = this.brandService;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -54,7 +63,6 @@ public class BrandListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long productCategoryId = FreeMarkerUtils.getParameter(PRODUCT_CATEGORY_ID_PARAMETER_NAME, Long.class, params);

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -42,8 +44,16 @@ public class ProductCategoryChildrenListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "productCategories";
 
-	@Inject
+	@Resource
 	private ProductCategoryService productCategoryService;
+
+	public static ProductCategoryChildrenListDirective productCategoryChildrenListDirective;
+
+	@PostConstruct
+	public void init() {
+		productCategoryChildrenListDirective = this;
+		productCategoryChildrenListDirective.productCategoryService = this.productCategoryService;
+	}
 
 	/**
 	 * 执行
@@ -57,7 +67,6 @@ public class ProductCategoryChildrenListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long productCategoryId = FreeMarkerUtils.getParameter(PRODUCT_CATEGORY_ID_PARAMETER_NAME, Long.class, params);

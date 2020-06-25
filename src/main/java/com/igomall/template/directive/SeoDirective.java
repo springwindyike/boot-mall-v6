@@ -1,21 +1,21 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.entity.Seo;
 import com.igomall.service.SeoService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import javax.inject.Inject;
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * 模板指令 - SEO设置
@@ -36,8 +36,16 @@ public class SeoDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "seo";
 
-	@Inject
+	@Autowired
 	private SeoService seoService;
+
+	public static SeoDirective seoDirective;
+
+	@PostConstruct
+	public void init() {
+		seoDirective = this;
+		seoDirective.seoService = this.seoService;
+	}
 
 	/**
 	 * 执行
@@ -51,7 +59,6 @@ public class SeoDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Seo.Type type = FreeMarkerUtils.getParameter(TYPE_PARAMETER_NAME, Seo.Type.class, params);

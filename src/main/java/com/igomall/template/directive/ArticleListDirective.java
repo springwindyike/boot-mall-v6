@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -44,9 +46,16 @@ public class ArticleListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "articles";
 
-	@Inject
+	@Resource
 	private ArticleService articleService;
 
+	public static ArticleListDirective articleListDirective;
+
+	@PostConstruct
+	public void init() {
+		articleListDirective = this;
+		articleListDirective.articleService = this.articleService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -59,7 +68,6 @@ public class ArticleListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long articleCategoryId = FreeMarkerUtils.getParameter(ARTICLE_CATEGORY_ID_PARAMETER_NAME, Long.class, params);

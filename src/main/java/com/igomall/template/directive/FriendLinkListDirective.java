@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -35,6 +36,14 @@ public class FriendLinkListDirective extends BaseDirective {
 
 	@Inject
 	private FriendLinkService friendLinkService;
+
+	public static FriendLinkListDirective friendLinkListDirective;
+
+	@PostConstruct
+	public void init() {
+		friendLinkListDirective = this;
+		friendLinkListDirective.friendLinkService = this.friendLinkService;
+	}
 
 	/**
 	 * 执行

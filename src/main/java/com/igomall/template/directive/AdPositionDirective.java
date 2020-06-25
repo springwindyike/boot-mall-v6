@@ -4,6 +4,8 @@ package com.igomall.template.directive;
 import java.io.IOException;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -30,9 +32,16 @@ public class AdPositionDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "adPosition";
 
-	@Inject
+	@Resource
 	private AdPositionService adPositionService;
 
+	public static AdPositionDirective adPositionDirective;
+
+	@PostConstruct
+	public void init() {
+		adPositionDirective = this;
+		adPositionDirective.adPositionService = this.adPositionService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -45,7 +54,6 @@ public class AdPositionDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long id = getId(params);

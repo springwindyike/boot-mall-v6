@@ -66,7 +66,7 @@ public class BusinessCashCountDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@SuppressWarnings({ "unchecked" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		BusinessCash.Status status = FreeMarkerUtils.getParameter(STATUS_PARAMETER_NAME, BusinessCash.Status.class, params);

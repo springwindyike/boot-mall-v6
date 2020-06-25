@@ -1,9 +1,12 @@
 package com.igomall.config;
 
+import org.apache.commons.lang3.LocaleUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.web.servlet.i18n.FixedLocaleResolver;
+
+import java.util.Locale;
 
 @Configuration
 public class MessageConfig {
@@ -13,13 +16,15 @@ public class MessageConfig {
         ReloadableResourceBundleMessageSource reloadableResourceBundleMessageSource = new ReloadableResourceBundleMessageSource();
         reloadableResourceBundleMessageSource.setCacheSeconds(0);
         reloadableResourceBundleMessageSource.setUseCodeAsDefaultMessage(true);
-        reloadableResourceBundleMessageSource.setBasenames("WEB-INF/language/common/message","WEB-INF/language/shop/message","WEB-INF/language/member/message","WEB-INF/language/business/message","WEB-INF/language/admin/message");
+        reloadableResourceBundleMessageSource.setBasenames("messages/common/message", "messages/shop/message", "messages/member/message", "messages/business/message", "messages/admin/message");
         return reloadableResourceBundleMessageSource;
     }
 
     @Bean
     public FixedLocaleResolver localeResolver(){
         FixedLocaleResolver fixedLocaleResolver = new FixedLocaleResolver();
+        fixedLocaleResolver.setDefaultLocale(Locale.CHINA);
+        fixedLocaleResolver.setDefaultLocale(LocaleUtils.toLocale("zh_CN"));
         return fixedLocaleResolver;
     }
 }

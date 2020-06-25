@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -34,6 +35,14 @@ public class ArticleCategoryRootListDirective extends BaseDirective {
 	@Inject
 	private ArticleCategoryService articleCategoryService;
 
+	public static ArticleCategoryRootListDirective articleCategoryRootListDirective;
+
+	@PostConstruct
+	public void init() {
+		articleCategoryRootListDirective = this;
+		articleCategoryRootListDirective.articleCategoryService = this.articleCategoryService;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -46,7 +55,6 @@ public class ArticleCategoryRootListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Integer count = getCount(params);

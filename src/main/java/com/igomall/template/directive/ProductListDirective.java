@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
 import org.apache.commons.lang3.math.NumberUtils;
@@ -104,6 +105,14 @@ public class ProductListDirective extends BaseDirective {
 
 	@Inject
 	private ProductService productService;
+
+	public static ProductListDirective productListDirective;
+
+	@PostConstruct
+	public void init() {
+		productListDirective = this;
+		productListDirective.productService = this.productService;
+	}
 
 	/**
 	 * 执行

@@ -1,8 +1,10 @@
 
 package com.igomall.service.impl;
 
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -21,7 +23,7 @@ import com.igomall.service.SeoService;
 @Service
 public class SeoServiceImpl extends BaseServiceImpl<Seo, Long> implements SeoService {
 
-	@Inject
+	@Resource
 	private SeoDao seoDao;
 
 	@Override
