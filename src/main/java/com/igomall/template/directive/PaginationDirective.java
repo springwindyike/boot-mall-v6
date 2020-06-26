@@ -8,7 +8,6 @@ import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -109,12 +108,6 @@ public class PaginationDirective extends BaseDirective {
 	 */
 	private static final String SEGMENT_VARIABLE_NAME = "segment";
 
-	public static PaginationDirective paginationDirective;
-
-	@PostConstruct
-	public void init() {
-		paginationDirective = this;
-	}
 	/**
 	 * 执行
 	 * 

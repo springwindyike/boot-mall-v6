@@ -33,6 +33,7 @@ public class MemberAttributeListDirective extends BaseDirective {
 
 	@Resource
 	private MemberAttributeService memberAttributeService;
+
 	public static MemberAttributeListDirective memberAttributeListDirective;
 
 	@PostConstruct
