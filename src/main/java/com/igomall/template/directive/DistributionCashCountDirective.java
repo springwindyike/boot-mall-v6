@@ -1,21 +1,19 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.entity.DistributionCash;
 import com.igomall.service.DistributionCashService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * 模板指令 - 分销提现数量
@@ -56,9 +54,15 @@ public class DistributionCashCountDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "count";
 
-	@Inject
+	@Resource
 	private DistributionCashService distributionCashService;
+	public static DistributionCashCountDirective distributionCashCountDirective;
 
+	@PostConstruct
+	public void init() {
+		distributionCashCountDirective = this;
+		distributionCashCountDirective.distributionCashService = this.distributionCashService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -71,7 +75,6 @@ public class DistributionCashCountDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		DistributionCash.Status status = FreeMarkerUtils.getParameter(STATUS_PARAMETER_NAME, DistributionCash.Status.class, params);

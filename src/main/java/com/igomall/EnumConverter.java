@@ -38,7 +38,6 @@ public class EnumConverter extends AbstractConverter {
 	 *            值
 	 * @return 对象
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	protected <T> T convertToType(Class<T> type, Object value) throws Throwable {
 		return (T) Enum.valueOf((Class<Enum>) type, String.valueOf(value));

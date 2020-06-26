@@ -1,19 +1,18 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.Map;
-
-import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.subject.Subject;
-import org.springframework.stereotype.Component;
-
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.subject.Subject;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * 模板指令 - 是否存在权限
@@ -34,6 +33,12 @@ public class HasPermissionTagDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "hasPermission";
 
+	public static HasPermissionTagDirective hasPermissionTagDirective;
+
+	@PostConstruct
+	public void init() {
+		hasPermissionTagDirective = this;
+	}
 	/**
 	 * 执行
 	 * 
@@ -46,7 +51,6 @@ public class HasPermissionTagDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		String permission = FreeMarkerUtils.getParameter(PERMISSION_PARAMETER_NAME, String.class, params);

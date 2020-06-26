@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -35,7 +37,7 @@ public class StoreProductTagDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "storeProductTags";
 
-	@Inject
+	@Resource
 	private StoreProductTagService storeProductTagService;
 
 	/**
@@ -43,6 +45,13 @@ public class StoreProductTagDirective extends BaseDirective {
 	 */
 	private static final String STORE_ID_PARAMETER_NAME = "storeId";
 
+	public static StoreProductTagDirective storeProductTagDirective;
+
+	@PostConstruct
+	public void init() {
+		storeProductTagDirective = this;
+		storeProductTagDirective.storeProductTagService = this.storeProductTagService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -55,7 +64,6 @@ public class StoreProductTagDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long storeId = FreeMarkerUtils.getParameter(STORE_ID_PARAMETER_NAME, Long.class, params);

@@ -1,16 +1,15 @@
 
 package com.igomall.template.method;
 
-import java.util.List;
-import java.util.regex.Pattern;
-
+import com.igomall.util.FreeMarkerUtils;
+import freemarker.template.TemplateMethodModelEx;
+import freemarker.template.TemplateModelException;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
-import com.igomall.util.FreeMarkerUtils;
-
-import freemarker.template.TemplateMethodModelEx;
-import freemarker.template.TemplateModelException;
+import javax.annotation.PostConstruct;
+import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * 模板方法 - 字符串缩略
@@ -26,6 +25,13 @@ public class AbbreviateMethod implements TemplateMethodModelEx {
 	 */
 	private static final Pattern PATTERN = Pattern.compile("[\\u4e00-\\u9fa5\\ufe30-\\uffa0]");
 
+	public static AbbreviateMethod abbreviateMethod;
+
+	@PostConstruct
+	public void init() {
+		abbreviateMethod = this;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -33,7 +39,6 @@ public class AbbreviateMethod implements TemplateMethodModelEx {
 	 *            参数
 	 * @return 结果
 	 */
-	@SuppressWarnings("rawtypes")
 	@Override
 	public Object exec(List arguments) throws TemplateModelException {
 		String str = FreeMarkerUtils.getArgument(0, String.class, arguments);

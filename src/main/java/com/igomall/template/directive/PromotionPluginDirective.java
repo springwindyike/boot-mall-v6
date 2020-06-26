@@ -1,22 +1,21 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.apache.commons.collections4.CollectionUtils;
-import org.springframework.stereotype.Component;
-
 import com.igomall.plugin.PromotionPlugin;
 import com.igomall.service.PluginService;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.apache.commons.collections4.CollectionUtils;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import javax.inject.Inject;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 模板指令 - 促销插件
@@ -32,9 +31,16 @@ public class PromotionPluginDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "promotionPlugin";
 
-	@Inject
+	@Resource
 	private PluginService pluginService;
 
+	public static PromotionPluginDirective promotionPluginDirective;
+
+	@PostConstruct
+	public void init() {
+		promotionPluginDirective = this;
+		promotionPluginDirective.pluginService = this.pluginService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -47,7 +53,6 @@ public class PromotionPluginDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings("rawtypes")
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		List<PromotionPlugin> promotionPlugins = pluginService.getPromotionPlugins(true);

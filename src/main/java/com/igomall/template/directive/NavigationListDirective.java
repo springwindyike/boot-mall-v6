@@ -64,7 +64,6 @@ public class NavigationListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long navigationGroupId = FreeMarkerUtils.getParameter(NAVIGATION_GROUP_ID_PARAMETER_NAME, Long.class, params);

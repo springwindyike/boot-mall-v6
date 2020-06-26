@@ -28,7 +28,6 @@ public class AuditingEntityListener {
 	/**
 	 * 审计者Provider缓存
 	 */
-	@SuppressWarnings("rawtypes")
 	private static final Map<Class<?>, AuditorProvider> AUDITOR_PROVIDER_CACHE = new ConcurrentHashMap<>();
 
 	/**
@@ -112,7 +111,6 @@ public class AuditingEntityListener {
 	 *            审计者类型
 	 * @return 审计者Provider，若不存在则返回null
 	 */
-	@SuppressWarnings("rawtypes")
 	private AuditorProvider<?> getAuditorProvider(Class<?> auditorClass) {
 		Assert.notNull(auditorClass, "[Assertion failed] - auditorClass is required; it must not be null");
 

@@ -1,18 +1,17 @@
 
 package com.igomall.template.method;
 
-import java.math.BigDecimal;
-import java.util.List;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.Setting;
 import com.igomall.util.FreeMarkerUtils;
 import com.igomall.util.SystemUtils;
-
 import freemarker.template.SimpleScalar;
 import freemarker.template.TemplateMethodModelEx;
 import freemarker.template.TemplateModelException;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import java.math.BigDecimal;
+import java.util.List;
 
 /**
  * 模板方法 - 货币格式化
@@ -23,6 +22,13 @@ import freemarker.template.TemplateModelException;
 @Component
 public class CurrencyMethod implements TemplateMethodModelEx {
 
+	public static CurrencyMethod currencyMethod;
+
+	@PostConstruct
+	public void init() {
+		currencyMethod = this;
+	}
+
 	/**
 	 * 执行
 	 * 
@@ -30,7 +36,6 @@ public class CurrencyMethod implements TemplateMethodModelEx {
 	 *            参数
 	 * @return 结果
 	 */
-	@SuppressWarnings("rawtypes")
 	@Override
 	public Object exec(List arguments) throws TemplateModelException {
 		BigDecimal amount = FreeMarkerUtils.getArgument(0, BigDecimal.class, arguments);

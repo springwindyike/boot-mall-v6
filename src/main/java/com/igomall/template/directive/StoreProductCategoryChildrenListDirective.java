@@ -1,22 +1,20 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.entity.StoreProductCategory;
 import com.igomall.service.StoreProductCategoryService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 模板指令 - 下级店铺商品分类列表
@@ -47,9 +45,15 @@ public class StoreProductCategoryChildrenListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "storeProductCategories";
 
-	@Inject
+	@Resource
 	private StoreProductCategoryService storeProductCategoryService;
+	public static StoreProductCategoryChildrenListDirective storeProductCategoryChildrenListDirective;
 
+	@PostConstruct
+	public void init() {
+		storeProductCategoryChildrenListDirective = this;
+		storeProductCategoryChildrenListDirective.storeProductCategoryService = this.storeProductCategoryService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -62,7 +66,6 @@ public class StoreProductCategoryChildrenListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long storeProductCategoryId = FreeMarkerUtils.getParameter(STORE_PRODUCT_CATEGORY_ID_PARAMETER_NAME, Long.class, params);

@@ -1,20 +1,19 @@
 
 package com.igomall.template.directive;
 
+import com.igomall.util.FreeMarkerUtils;
+import freemarker.core.Environment;
+import freemarker.template.TemplateDirectiveBody;
+import freemarker.template.TemplateException;
+import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.springframework.stereotype.Component;
-
-import com.igomall.util.FreeMarkerUtils;
-
-import freemarker.core.Environment;
-import freemarker.template.TemplateDirectiveBody;
-import freemarker.template.TemplateException;
-import freemarker.template.TemplateModel;
 
 /**
  * 模板指令 - 分页
@@ -110,6 +109,12 @@ public class PaginationDirective extends BaseDirective {
 	 */
 	private static final String SEGMENT_VARIABLE_NAME = "segment";
 
+	public static PaginationDirective paginationDirective;
+
+	@PostConstruct
+	public void init() {
+		paginationDirective = this;
+	}
 	/**
 	 * 执行
 	 * 
@@ -122,7 +127,6 @@ public class PaginationDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		String pattern = FreeMarkerUtils.getParameter(PATTERN_PARAMETER_NAME, String.class, params);

@@ -1,21 +1,19 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.entity.CategoryApplication;
 import com.igomall.service.CategoryApplicationService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * 模板指令 - 经营分类申请数量
@@ -46,9 +44,15 @@ public class CategoryApplicationCountDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "count";
 
-	@Inject
+	@Resource
 	private CategoryApplicationService categoryApplicationService;
+	public static CategoryApplicationCountDirective categoryApplicationCountDirective;
 
+	@PostConstruct
+	public void init() {
+		categoryApplicationCountDirective = this;
+		categoryApplicationCountDirective.categoryApplicationService = this.categoryApplicationService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -61,7 +65,6 @@ public class CategoryApplicationCountDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		CategoryApplication.Status status = FreeMarkerUtils.getParameter(STATUS_PARAMETER_NAME, CategoryApplication.Status.class, params);

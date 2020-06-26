@@ -1,22 +1,20 @@
 
 package com.igomall.plugin;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import com.igomall.entity.Promotion;
+import com.igomall.entity.PromotionDefaultAttribute;
+import com.igomall.entity.Sku;
+import com.igomall.entity.Store;
+import org.springframework.stereotype.Component;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.ManyToMany;
 import javax.validation.constraints.NotNull;
-
-import org.springframework.stereotype.Component;
-
-import com.igomall.entity.Promotion;
-import com.igomall.entity.PromotionDefaultAttribute;
-import com.igomall.entity.Sku;
-import com.igomall.entity.Store;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Plugin - 赠品

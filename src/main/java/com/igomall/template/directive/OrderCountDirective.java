@@ -1,21 +1,19 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.entity.Order;
 import com.igomall.service.OrderService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.inject.Inject;
+import java.io.IOException;
+import java.util.Map;
 
 /**
  * 模板指令 - 订单数量
@@ -88,7 +86,13 @@ public class OrderCountDirective extends BaseDirective {
 
 	@Inject
 	private OrderService orderService;
+	public static OrderCountDirective orderCountDirective;
 
+	@PostConstruct
+	public void init() {
+		orderCountDirective = this;
+		orderCountDirective.orderService = this.orderService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -101,7 +105,6 @@ public class OrderCountDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Order.Type type = FreeMarkerUtils.getParameter(TYPE_PARAMETER_NAME, Order.Type.class, params);

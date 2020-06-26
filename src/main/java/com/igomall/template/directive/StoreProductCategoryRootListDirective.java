@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -37,9 +39,15 @@ public class StoreProductCategoryRootListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "storeProductCategories";
 
-	@Inject
+	@Resource
 	private StoreProductCategoryService storeProductCategoryService;
+	public static StoreProductCategoryRootListDirective storeProductCategoryRootListDirective;
 
+	@PostConstruct
+	public void init() {
+		storeProductCategoryRootListDirective = this;
+		storeProductCategoryRootListDirective.storeProductCategoryService = this.storeProductCategoryService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -52,7 +60,6 @@ public class StoreProductCategoryRootListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long storeId = FreeMarkerUtils.getParameter(STORE_ID, Long.class, params);

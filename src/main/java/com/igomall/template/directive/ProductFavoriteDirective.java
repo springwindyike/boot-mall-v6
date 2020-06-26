@@ -1,24 +1,23 @@
 
 package com.igomall.template.directive;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-import org.springframework.stereotype.Component;
-
 import com.igomall.Filter;
 import com.igomall.Order;
 import com.igomall.entity.ProductFavorite;
 import com.igomall.service.ProductFavoriteService;
 import com.igomall.util.FreeMarkerUtils;
-
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
+import javax.inject.Inject;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 模板指令 - 商品收藏
@@ -39,9 +38,16 @@ public class ProductFavoriteDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "productFavorites";
 
-	@Inject
+	@Resource
 	private ProductFavoriteService productFavoriteService;
 
+	public static ProductFavoriteDirective productFavoriteDirective;
+
+	@PostConstruct
+	public void init() {
+		productFavoriteDirective = this;
+		productFavoriteDirective.productFavoriteService = this.productFavoriteService;
+	}
 	/**
 	 * 执行
 	 * 
@@ -54,7 +60,6 @@ public class ProductFavoriteDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		Long memberId = FreeMarkerUtils.getParameter(MEMBER_ID_PARAMETER_NAME, Long.class, params);

@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Component;
@@ -45,12 +47,20 @@ public class InstantMessageListDirective extends BaseDirective {
 	 */
 	private static final String VARIABLE_NAME = "instantMessages";
 
-	@Inject
+	@Resource
 	private InstantMessageService instantMessageService;
+
+	public static InstantMessageListDirective instantMessageListDirective;
+
+	@PostConstruct
+	public void init() {
+		instantMessageListDirective = this;
+		instantMessageListDirective.instantMessageService = this.instantMessageService;
+	}
 
 	/**
 	 * 执行
-	 * 
+	 *
 	 * @param env
 	 *            环境变量
 	 * @param params
@@ -60,7 +70,6 @@ public class InstantMessageListDirective extends BaseDirective {
 	 * @param body
 	 *            模板内容
 	 */
-	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public void execute(Environment env, Map params, TemplateModel[] loopVars, TemplateDirectiveBody body) throws TemplateException, IOException {
 		InstantMessage.Type type = FreeMarkerUtils.getParameter(TYPE_PARAMETER_NAME, InstantMessage.Type.class, params);
