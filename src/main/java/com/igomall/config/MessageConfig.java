@@ -17,6 +17,8 @@ public class MessageConfig {
         reloadableResourceBundleMessageSource.setCacheSeconds(0);
         reloadableResourceBundleMessageSource.setUseCodeAsDefaultMessage(true);
         reloadableResourceBundleMessageSource.setBasenames("messages/common/message", "messages/shop/message", "messages/member/message", "messages/business/message", "messages/admin/message");
+        String message = reloadableResourceBundleMessageSource.getMessage("shop.mainHeader.memberLogin", null, LocaleUtils.toLocale("zh_CN"));
+        System.out.println(message);
         return reloadableResourceBundleMessageSource;
     }
 

@@ -41,6 +41,7 @@ public class StoreProductCategoryRootListDirective extends BaseDirective {
 
 	@Resource
 	private StoreProductCategoryService storeProductCategoryService;
+
 	public static StoreProductCategoryRootListDirective storeProductCategoryRootListDirective;
 
 	@PostConstruct
